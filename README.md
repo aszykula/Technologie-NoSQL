@@ -115,7 +115,7 @@ user	0m0.018s
 sys	 0m0.018s
 ```
 
-W celu zmiany danych w punkty używamy skryptu [toPoints.js](./scripts/toPoints.js).
+W celu zmiany danych w punkty używamy skryptu [toPoint.js](./scripts/toPoint.js).
 
 ```mongo
 mongo places toPoint.js
