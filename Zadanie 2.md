@@ -1,5 +1,5 @@
 #Zadanie 2
-Na potrzeby zadania wykożystam bazę `Internet Movies Data Base` zlinkowaną na [stronie prowadzącego](http://wbzyl.inf.ug.edu.pl/nosql/)
+Na potrzeby zadania wykorzystam bazę `Internet Movies Data Base` zlinkowaną na [stronie prowadzącego](http://wbzyl.inf.ug.edu.pl/nosql/)
 ####Import danych do bazy
 ```sh
 time mongoimport -d imdb -c imdb --type json --file getglue_sample.json
