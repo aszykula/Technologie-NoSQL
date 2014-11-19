@@ -62,6 +62,9 @@ a w `1254 filmach` zostało wpisane "not available" więc te dane są mało isto
 | takashi miike     |     41      |
 | steven spielberg  |     41      |
 | robert altman     |     41      |
+
+![Alt text](./images/directorsDiagram.png)
+
 ###Agregacja2
 10 najbardziej aktywnych użytkowników
 
@@ -82,6 +85,7 @@ db.imdb.aggregate(
 	);
 ```
 ```js	
+{ "_id" : "demi_konti", "count" : 68137 }
 { "_id" : "zenofmac", "count" : 56233 }
 { "_id" : "cillax", "count" : 43161 }
 { "_id" : "tamtomo", "count" : 42378 }
@@ -94,6 +98,7 @@ db.imdb.aggregate(
 ```
 |    Użytkownik     |    Wpisów   |
 |:-----------------:|:-----------:|
+| demi_konti        |    68137    |
 | zenofmac          |    56233    |
 | cillax            |    43161    |
 | tamtomo           |    42378    |
@@ -104,6 +109,9 @@ db.imdb.aggregate(
 | SusantiBharuna    |    28706    |
 | zbj               |    28601    |
 Taka ilość wpisów jest bardzo imponująca.
+
+![Alt text](./images/usersDiagram.png)
+
 ###Agregacja3
 20 najmniej popularnych filmów i seriali
 
